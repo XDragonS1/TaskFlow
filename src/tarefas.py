@@ -5,3 +5,6 @@ def criar(titulo):
 
 def listar():
     return tarefas
+
+def editar(indice, titulo):
+    tarefas[indice] = titulo
